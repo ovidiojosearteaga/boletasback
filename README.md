@@ -76,6 +76,6 @@ Por ultimo para ver el proyecto en el navegador corra el comando
 
 ## Configuración del usuario admin
 
-Luego de haber instalado el proyecto y registrado un usuario desde el back, es necesario cambiar el campo role directamente en la base de datos (tabla users) por el valor "admin" para poder configurar el numero maximo de boletas disponibles y hacer otras activiades de administración. Ya que por defecto los usuarios registrados en el sistema tienen el role user.
+Luego de haber instalado el proyecto y registrado un usuario desde el front, es necesario cambiar el campo role directamente en la base de datos (tabla users) por el valor "admin" para poder configurar el numero maximo de boletas disponibles y hacer otras activiades de administración. Ya que por defecto los usuarios registrados en el sistema tienen el role user.
 
 El paso anterior es importante porque tanto las rutas en el front como en back estan protegidas.
